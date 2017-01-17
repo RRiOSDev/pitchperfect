@@ -22,13 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM4-hU-70f">
-                                <rect key="frame" x="112" y="137" width="150" height="150"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM4-hU-70f">
+                                <rect key="frame" x="112.5" y="137" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="G0y-ad-xWf"/>
                                     <constraint firstAttribute="width" constant="150" id="HTR-0N-VTK"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="recordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pk4-v3-vwe"/>
                                 </connections>
@@ -39,13 +39,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxV-j7-2VP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxV-j7-2VP">
                                 <rect key="frame" x="150" y="373" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="a2w-8L-3uc"/>
                                     <constraint firstAttribute="width" constant="75" id="adw-gq-66O"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecordingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="93i-c8-FAi"/>
                                 </connections>
@@ -72,4 +72,8 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Record" width="155" height="155"/>
+        <image name="Stop" width="155" height="155"/>
+    </resources>
 </document>
