@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2252E421E384B74005F3080 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2252E411E384B74005F3080 /* PlaySoundsViewController+Audio.swift */; };
 		E27E061D1E2D4A0C000F6DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E061C1E2D4A0C000F6DB5 /* AppDelegate.swift */; };
 		E27E061F1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E061E1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift */; };
 		E27E06221E2D4A0D000F6DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27E06201E2D4A0D000F6DB5 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2252E411E384B74005F3080 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		E27E06191E2D4A0C000F6DB5 /* PitchPertfect App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PitchPertfect App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27E061C1E2D4A0C000F6DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E27E061E1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				E27E061C1E2D4A0C000F6DB5 /* AppDelegate.swift */,
 				E27E06301E314686000F6DB5 /* PlaySoundsViewController.swift */,
+				E2252E411E384B74005F3080 /* PlaySoundsViewController+Audio.swift */,
 				E27E061E1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift */,
 				E27E06201E2D4A0D000F6DB5 /* Main.storyboard */,
 				E27E06231E2D4A0D000F6DB5 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27E061F1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift in Sources */,
+				E2252E421E384B74005F3080 /* PlaySoundsViewController+Audio.swift in Sources */,
 				E27E06311E314686000F6DB5 /* PlaySoundsViewController.swift in Sources */,
 				E27E061D1E2D4A0C000F6DB5 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				E27E062D1E2D4A0D000F6DB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
