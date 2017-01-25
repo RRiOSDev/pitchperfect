@@ -12,6 +12,7 @@
 		E27E06221E2D4A0D000F6DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27E06201E2D4A0D000F6DB5 /* Main.storyboard */; };
 		E27E06241E2D4A0D000F6DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27E06231E2D4A0D000F6DB5 /* Assets.xcassets */; };
 		E27E06271E2D4A0D000F6DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27E06251E2D4A0D000F6DB5 /* LaunchScreen.storyboard */; };
+		E27E06311E314686000F6DB5 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E06301E314686000F6DB5 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E27E06231E2D4A0D000F6DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27E06261E2D4A0D000F6DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27E06281E2D4A0D000F6DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27E06301E314686000F6DB5 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E27E061C1E2D4A0C000F6DB5 /* AppDelegate.swift */,
+				E27E06301E314686000F6DB5 /* PlaySoundsViewController.swift */,
 				E27E061E1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift */,
 				E27E06201E2D4A0D000F6DB5 /* Main.storyboard */,
 				E27E06231E2D4A0D000F6DB5 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27E061F1E2D4A0C000F6DB5 /* RecordSoundsViewController.swift in Sources */,
+				E27E06311E314686000F6DB5 /* PlaySoundsViewController.swift in Sources */,
 				E27E061D1E2D4A0C000F6DB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
